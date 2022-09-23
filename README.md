@@ -75,6 +75,7 @@ Pizzeria script Fir Gabz MLO
     EmoteLoop = true,
     EmoteMoving = true,
 }},
+
 ["uwusandy"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "", AnimationOptions =
 {
     Prop = 'ng_proc_food_ornge1a',
