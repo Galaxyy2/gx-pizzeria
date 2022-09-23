@@ -3,7 +3,8 @@ Pizzeria script Fir Gabz MLO
 
 #Items.lua
 
--- gx-pizzeria
+--gx-pizzeria--
+	
 	["pizzafungi"]			    = {["name"] = "pizzafungi",			    ["label"] = "Fungi Pizza",	        ["weight"] = 200,	["type"] = "item",	["image"] = "pfungi.png",				    ["unique"] = false,	["useable"] = false,		["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Fungi Pizza!"},
 	
 	["pizzavegpizza"]			    = {["name"] = "pizzavegpizza",			    ["label"] = "Veg Pizza",	        ["weight"] = 200,	["type"] = "item",	["image"] = "pvegpizza.png",				    ["unique"] = false,	["useable"] = false,		["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Veg Pizza!"},
