@@ -1,7 +1,7 @@
 # gx-pizzeria
 Pizzeria script Fir Gabz MLO
 
-#Items.lua
+# Items.lua
 
 --gx-pizzeria--
 	
@@ -67,7 +67,7 @@ Pizzeria script Fir Gabz MLO
 	
 	["pizzabubbleteamint"]		    = {["name"] = "pizzabubbleteamint",		["label"] = "Pizzeria Minty B-T",			["weight"] = 200,	["type"] = "item",	["image"] = "uwububbleteamint.png",			["unique"] = false,	["useable"] = true,		["shouldClose"] = true,		["combinable"] = nil,   ["description"] = "Matcha Tea with Mint Boba."},
  
- #Jobs.lua
+ # Jobs.lua
  
    ["pizzeria"] = {
         label = "Pizzeria",
