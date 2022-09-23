@@ -1,6 +1,10 @@
 # gx-pizzeria
 Pizzeria script Fir Gabz MLO
 
+# Join My New Discord
+
+https://discord.gg/Cbb2Mb62hd
+
 # Items.lua
 
 --gx-pizzeria--
