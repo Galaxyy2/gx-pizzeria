@@ -1,5 +1,5 @@
 # gx-pizzeria
-Pizzeria script Fir Gabz MLO
+Pizzeria script For Gabz MLO
 
 # Join My New Discord
 
