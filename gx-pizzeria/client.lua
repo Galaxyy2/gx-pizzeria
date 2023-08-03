@@ -586,25 +586,43 @@ Citizen.CreateThread(function()
     end
 end)
 
-Citizen.CreateThread(function ()
-    if Config.UsePed == true then
-    exports['qb-target']:AddBoxZone("PedIngredients", Config.PedTargetLoc, 1, 1, {
-        name = "PedIngredients",
-        heading = 0,
-        debugPoly = false,
-    }, {
-        options = {
-            {
-                type = "Client",
-                event = "gx-pizzeria:client:ShopMenu",
-                icon = "fas fa-shopping-bag",
-                label = 'Talk with employee'
+Citizen.CreateThread(function()
+    if Config.ox_target then
+        if Config.UsePed == true then
+            exports.ox_target:addBoxZone({
+                coords = vec3(801.7924, -757.6255, 25.7808),
+                size = vec3(2, 2, 2),
+                rotation = 45,
+                debug = drawZones,
+                options = {
+                    {
+                        name = 'ingredientped',
+                        event = 'gx-pizzeria:client:ShopMenu',
+                        icon = 'fa-solid fa-cube',
+                        label = 'Talk with employee'
+                    }
+                }
+            })
+        end
+    else
+        exports['qb-target']:AddBoxZone("PedIngredients", Config.PedTargetLoc, 1, 1, {
+            name = "PedIngredients",
+            heading = 0,
+            debugPoly = false,
+        }, {
+            options = {
+                {
+                    type = "Client",
+                    event = "gx-pizzeria:client:ShopMenu",
+                    icon = "fas fa-shopping-bag",
+                    label = 'Talk with employee'
+                },
             },
-        },
-        distance = 2.5
-    })
+            distance = 2.5
+        })
     end
 end)
+
 
 RegisterNetEvent('gx-pizzeria:client:BuyButter', function()
     TriggerEvent('animations:client:EmoteCommandStart', {"handshake"})

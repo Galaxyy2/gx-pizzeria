@@ -19,7 +19,7 @@ client_scripts{
 }
 
 shared_scripts{
-    'config.lua',
+    'config.lua'
 }
 
 server_scripts{
